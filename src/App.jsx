@@ -83,10 +83,6 @@ const App = () => {
             linkedin.com/in/hodanielkhuu
           </a>
         </p>
-        <p>
-          <strong>Location:</strong> Doktor Wendts gate 15, Lørenskog 1461,
-          Norway
-        </p>
       </div>
 
       {/* Education Section */}
