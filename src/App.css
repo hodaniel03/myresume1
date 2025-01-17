@@ -20,10 +20,11 @@ html {
     0.8
   ); /* Background color for sections */
   border-radius: 10px; /* Rounded corners */
-  display: flex;
-  flex-direction: column;
+  display: flex; 
+  flex-direction: column; 
   justify-content: center; /* Center content vertically */
-  align-items: center; /* Center content horizontally */
+  align-items: center; 
+  margin-bottom: 20px;
 }
 
 .navbar {
@@ -107,9 +108,38 @@ html {
   transform: scale(1.05); /* Slight zoom effect */
 }
 
-.github-logo {
-  width: 20px; /* Adjust the size as needed */
-  height: 20px; /* Adjust the size as needed */
-  margin-right: 10px; /* Space between the logo and the text */
-  vertical-align: middle; /* Align the logo vertically with the text */
+#experience.section {
+  margin-top: 200px;
 }
+
+
+
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  padding: 20px;
+  justify-items: center;
+}
+
+.project-card {
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 10px;
+  width: 300px;
+  text-align: center;
+}
+
+.project-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.project-card p {
+  margin-top: 10px;
+  font-size: 1em;
+  color: #333;
+}
+
