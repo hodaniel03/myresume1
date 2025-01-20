@@ -143,3 +143,21 @@ html {
   color: #333;
 }
 
+
+
+.logo {
+  margin-right: 20px; /* Adjust as needed */
+}
+
+.logo img {
+  height: 70px; /* Adjust as needed */
+  width: auto;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  background-color: #f8f9fa; /* Adjust as needed */
+}
+

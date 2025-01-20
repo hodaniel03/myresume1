@@ -12,6 +12,9 @@ const App = () => {
     >
       {/* Navigation Bar */}
       <nav className="navbar">
+        <div className="logo">
+          <img src="./guardianlion.jpg" alt="Logo" />
+        </div>
         <ul>
           <li>
             <a href="#about-me">
